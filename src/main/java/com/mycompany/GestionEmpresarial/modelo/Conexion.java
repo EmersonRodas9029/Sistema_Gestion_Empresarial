@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class Conexion {
     private static final String URL = "jdbc:mysql://localhost:3306/empresa?serverTimezone=UTC";
     private static final String USER = "emerson";
-    private static final String PASS = "Emerson123!";
+    private static final String PASS = "9029";
 
     public Connection getConexion() {
         Connection con = null;
